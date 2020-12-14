@@ -1,0 +1,144 @@
+@import "Reset.css";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  text-decoration: none;
+}
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.view-left-header {
+  width: 600px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 120px;
+  position: fixed;
+  right: 0;
+}
+
+.view-left-header h1 {
+  font-size: 65px;
+  letter-spacing: 1.2px;
+  margin-left: -55px;
+}
+
+.view-left-header span {
+  display: block;
+}
+
+.view-left-header h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.view-left-header p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.view-right {
+  width: 940px;
+}
+
+.player-floor {
+  width: 100%;
+  height: 98vh;
+  padding: 50px 70px;
+  background-color: #189cc4;
+}
+
+.player-floor.another {
+  background-color: #5483b1;
+}
+
+.player-floor header h2 {
+  color: #fff;
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.view-right div {
+  margin-bottom: 12px;
+  box-shadow: 0 80px 80px -80px #000, 0 0 12px rgba(0, 0, 0, 0.06),
+    inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+article footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+article footer p {
+  color: #fff;
+  font-size: 15px;
+  margin-right: 10px;
+  line-height: 2em;
+}
+article footer button span {
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.fas.fa-thumbs-up,
+.fas.fa-thumbs-down {
+  font-size: 23px;
+  color: lightyellow;
+  opacity: 0.5;
+  margin-right: 10px;
+}
+
+.fas.fa-thumbs-up:hover,
+.fas.fa-thumbs-down:hover {
+  color: indigo;
+}
+
+.view-right-footer {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.view-right-footer a {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.view-right-footer a:hover {
+  transition: 250ms;
+  background-color: #414141;
+  color: #fff;
+}
+
+.view-right-footer span {
+  color: black;
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 12px;
+  line-height: 4em;
+}
+
+.view-right-footer span:hover {
+  color: #fff;
+}
+.footer-git-logo {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+}
